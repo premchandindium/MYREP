@@ -1,0 +1,18 @@
+Algorithm for "Find the second largest number among three numbers" program:
+
+Start the program.
+Display the message "Enter 3 numbers:".
+Read the three numbers from the user and store them in variables a, b, and c.
+Check if the value of a is greater than or equal to both b and c.
+If yes, then check if the value of b is greater than or equal to c.
+If yes, then b is the second largest number. Display the message "b is the 2nd largest number".
+If no, then c is the second largest number. Display the message "c is the 2nd largest number".
+If no a is not greater than or equal to both b and c , then check if the value of b is greater than or equal to both a and c.
+If yes, then check if the value of a is greater than or equal to c.
+If yes, then a is the second largest number. Display the message "a is the 2nd largest number".
+If no, then c is the second largest number. Display the message "c is the 2nd largest number".
+If none of the above conditions are true, then the value of c must be greater than both a and b.
+Check if the value of a is greater than or equal to b.
+If yes, then a is the second largest number. Display the message "a is the 2nd largest number".
+If no, then b is the second largest number. Display the message "b is the 2nd largest number".
+End the program.
